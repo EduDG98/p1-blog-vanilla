@@ -1,7 +1,12 @@
 body {
   margin: 0px;
   background: #ffffff;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
+
+/* HEADER */
 header {
   /*border: 1px solid red;*/
   padding: 20px 16px;
@@ -31,6 +36,7 @@ header div.container{
     height: 107px;
   }
 
+/* BUSCADOR  */
 header div#right-container {
   display: flex;  
 }
@@ -64,6 +70,7 @@ header div#right-container {
       align-self: start;
     }
 
+/* MAIN */
 main {  
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -79,13 +86,17 @@ main div.clothe-container div{
 }
 
 main div.clothe-text {
-  padding-left: 10px;
+  padding: 10px 0px 15px 15px;
 }
 
 main div.clothe-container img{
   max-width: 100%;
   max-height: 100%;
   border-bottom: 1px solid black;
+}
+
+.hide {
+  display: none;
 }
 
 
